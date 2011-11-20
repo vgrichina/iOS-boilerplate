@@ -3,6 +3,9 @@
 *~.nib
 
 build/
+DerivedData
+
+Pods
 
 *.pbxuser
 *.perspective
