@@ -107,7 +107,7 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    [SVProgressHUD showInView:self.view];
+    [SVProgressHUD show];
     
     [[TwitterSearchClient sharedClient] getPath:@"search" parameters:[NSDictionary dictionaryWithObject:@"cats" forKey:@"q"] success:^(id object) {
         [SVProgressHUD dismiss];
