@@ -1,0 +1,12 @@
+PODS:
+  - AFNetworking (0.7.0):
+    - JSONKit
+  - EGOTableViewPullRefresh (0.1.0)
+  - JSONKit (1.4)
+  - SVProgressHUD (0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - EGOTableViewPullRefresh
+  - JSONKit
+  - SVProgressHUD
