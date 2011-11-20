@@ -34,7 +34,7 @@ Some screenshots:
 
 IOS Boilerplate includes the following third-party software:
 
-  - [ASIHTTPRequest](http://allseeing-i.com/ASIHTTPRequest/)
+  - [AFNetworking](https://github.com/AFNetworking/AFNetworking)
   - [SVProgressHUD](https://github.com/samvermette/SVProgressHUD)
   - [JSONKit](https://github.com/johnezang/JSONKit)
   - [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh)
