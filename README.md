@@ -32,9 +32,23 @@ Some screenshots:
 ![Directions demo](https://github.com/gimenete/iOS-boilerplate/raw/master/shots/directions.png)
 
 
-IOS Boilerplate includes the following third-party software:
+### Dependencies
+
+IOS Boilerplate depends on the following third-party libraries:
 
   - [AFNetworking](https://github.com/AFNetworking/AFNetworking)
   - [SVProgressHUD](https://github.com/samvermette/SVProgressHUD)
   - [JSONKit](https://github.com/johnezang/JSONKit)
   - [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh)
+
+These are installed through the dependency manager [CocoaPods](https://github.com/CocoaPods/CocoaPods).
+
+If you don’t use CocoaPods yet install it first as described in the CocoaPods [README](https://github.com/CocoaPods/CocoaPods/blob/master/README.md).
+
+Now in the Terminal, from the root of the IOS Boilerplate clone, run the following commands to install the dependencies:
+
+    $ pod install
+
+After the installation has completed open up the Xcode workspace `IOSBoilerplate.xcworkspace` and you’re done.
+
+It is simple to add or remove dependencies, which are defined in `Podfile`. A growing list of Pods are available from the [spec repo](https://github.com/CocoaPods/Specs).
