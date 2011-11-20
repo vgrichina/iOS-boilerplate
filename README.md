@@ -51,4 +51,4 @@ Now in the Terminal, from the root of the IOS Boilerplate clone, run the followi
 
 After the installation has completed open up the Xcode workspace `IOSBoilerplate.xcworkspace` and you’re done.
 
-It is simple to add or remove dependencies, which are defined in `Podfile`. A growing list of Pods are available from the [spec repo](https://github.com/CocoaPods/Specs).
+It is simple to add or remove dependencies by updating the [Podfile](https://github.com/CocoaPods/iOS-boilerplate/blob/master/Podfile). A growing list of Pods are available from the [spec repo](https://github.com/CocoaPods/Specs).
