@@ -1,1 +1,1 @@
-UIALogger.logSuccess("Fail test 1");
+UIALogger.logPass("Pass test 1");
